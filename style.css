@@ -1,0 +1,66 @@
+
+/* style body*/
+body{
+    background: url('images/bodyFoto.jpg') center center fixed;
+    background-size: cover;
+    color: #fff;
+
+}
+/* style Header*/
+#header{
+    text-align: center;
+    font-size: 7vw;
+}
+/* style Lap*/
+#lap{
+    text-align: right;
+    font-size: 4vw;
+}
+/*Style Time*/
+#time{
+    text-align: center;
+    font-size: 10vw;
+}
+/* Style Container Buttons*/
+#controlsContainer{
+    margin-bottom: 100px;
+}
+.control{
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    padding: 20% 0;
+    font-size: 2.5vw;
+    cursor: pointer;  
+
+}
+.control:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* Style Laps*/
+#laps{
+   max-height: 270px;
+   overflow-y: scroll; 
+}
+
+/*style lap details*/
+.lap{
+    height: 70px;
+    border-bottom: 1px solid #fff;
+    margin: 15px;
+}
+.laptimetitle{
+    font-size: 2em;
+    float: left;
+}
+.laptime{
+    font-size: 2em;
+    float: right;
+}
+
+
