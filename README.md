@@ -1,1 +1,2 @@
 # Stoppuhr-App
+Bootstrap & jQuery
